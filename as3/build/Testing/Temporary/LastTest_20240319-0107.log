@@ -1,0 +1,88 @@
+Start testing: Mar 20 05:51 Malay Peninsula Standard Time
+----------------------------------------------------------
+1/1 Testing: TreeTest
+1/1 Test: TreeTest
+Command: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as3/build/Debug/tree_test.exe"
+Directory: C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as3/build
+"TreeTest" start time: Mar 20 05:51 Malay Peninsula Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 29 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 9 tests from Tree
+[ RUN      ] Tree.test_public_constructor
+[       OK ] Tree.test_public_constructor (0 ms)
+[ RUN      ] Tree.test_public_insert_single_value
+[       OK ] Tree.test_public_insert_single_value (0 ms)
+[ RUN      ] Tree.test_public_size_correct_after_insert
+[       OK ] Tree.test_public_size_correct_after_insert (0 ms)
+[ RUN      ] Tree.test_public_contains
+[       OK ] Tree.test_public_contains (0 ms)
+[ RUN      ] Tree.test_public_pre_order
+[       OK ] Tree.test_public_pre_order (0 ms)
+[ RUN      ] Tree.test_public_in_order
+[       OK ] Tree.test_public_in_order (0 ms)
+[ RUN      ] Tree.test_public_post_order
+[       OK ] Tree.test_public_post_order (0 ms)
+[ RUN      ] Tree.test_public_successor
+[       OK ] Tree.test_public_successor (0 ms)
+[ RUN      ] Tree.test_public_successor_not_in_tree
+[       OK ] Tree.test_public_successor_not_in_tree (0 ms)
+[----------] 9 tests from Tree (1 ms total)
+
+[----------] 20 tests from PublicTestValues/TreeTest
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert/0
+[       OK ] PublicTestValues/TreeTest.test_public_insert/0 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert/1
+[       OK ] PublicTestValues/TreeTest.test_public_insert/1 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert/2
+[       OK ] PublicTestValues/TreeTest.test_public_insert/2 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert/3
+[       OK ] PublicTestValues/TreeTest.test_public_insert/3 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert_heights/0
+[       OK ] PublicTestValues/TreeTest.test_public_insert_heights/0 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert_heights/1
+[       OK ] PublicTestValues/TreeTest.test_public_insert_heights/1 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert_heights/2
+[       OK ] PublicTestValues/TreeTest.test_public_insert_heights/2 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert_heights/3
+[       OK ] PublicTestValues/TreeTest.test_public_insert_heights/3 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_min/0
+[       OK ] PublicTestValues/TreeTest.test_public_search_min/0 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_min/1
+[       OK ] PublicTestValues/TreeTest.test_public_search_min/1 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_min/2
+[       OK ] PublicTestValues/TreeTest.test_public_search_min/2 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_min/3
+[       OK ] PublicTestValues/TreeTest.test_public_search_min/3 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_max/0
+[       OK ] PublicTestValues/TreeTest.test_public_search_max/0 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_max/1
+[       OK ] PublicTestValues/TreeTest.test_public_search_max/1 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_max/2
+[       OK ] PublicTestValues/TreeTest.test_public_search_max/2 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_max/3
+[       OK ] PublicTestValues/TreeTest.test_public_search_max/3 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_balance/0
+[       OK ] PublicTestValues/TreeTest.test_public_balance/0 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_balance/1
+[       OK ] PublicTestValues/TreeTest.test_public_balance/1 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_balance/2
+[       OK ] PublicTestValues/TreeTest.test_public_balance/2 (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_balance/3
+[       OK ] PublicTestValues/TreeTest.test_public_balance/3 (0 ms)
+[----------] 20 tests from PublicTestValues/TreeTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 29 tests from 2 test suites ran. (5 ms total)
+[  PASSED  ] 29 tests.
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"TreeTest" end time: Mar 20 05:51 Malay Peninsula Standard Time
+"TreeTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 20 05:51 Malay Peninsula Standard Time

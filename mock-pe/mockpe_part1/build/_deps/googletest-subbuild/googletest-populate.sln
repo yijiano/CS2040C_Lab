@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{7A9F51F1-262B-3C2E-9677-0A8703350681}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExternalProjectTargets", "ExternalProjectTargets", "{559495DD-CC04-3D98-824F-D86141621E78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "googletest-populate", "ExternalProjectTargets\googletest-populate", "{67DEACA0-8C9A-3645-8CD5-09D491E328DC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{3DAA9DE7-0B55-37C4-B1BD-C9BE7C759E78}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9A95C3F-5D69-3F34-9EFC-E8761B309267} = {D9A95C3F-5D69-3F34-9EFC-E8761B309267}
+		{EB05A360-2ED7-3764-82BC-C7C3B209A235} = {EB05A360-2ED7-3764-82BC-C7C3B209A235}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "ZERO_CHECK.vcxproj", "{D9A95C3F-5D69-3F34-9EFC-E8761B309267}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "googletest-populate", "googletest-populate.vcxproj", "{EB05A360-2ED7-3764-82BC-C7C3B209A235}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D9A95C3F-5D69-3F34-9EFC-E8761B309267} = {D9A95C3F-5D69-3F34-9EFC-E8761B309267}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|win32 = Debug|win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DAA9DE7-0B55-37C4-B1BD-C9BE7C759E78}.Debug|win32.ActiveCfg = Debug|win32
+		{D9A95C3F-5D69-3F34-9EFC-E8761B309267}.Debug|win32.ActiveCfg = Debug|win32
+		{D9A95C3F-5D69-3F34-9EFC-E8761B309267}.Debug|win32.Build.0 = Debug|win32
+		{EB05A360-2ED7-3764-82BC-C7C3B209A235}.Debug|win32.ActiveCfg = Debug|win32
+		{EB05A360-2ED7-3764-82BC-C7C3B209A235}.Debug|win32.Build.0 = Debug|win32
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DAA9DE7-0B55-37C4-B1BD-C9BE7C759E78} = {7A9F51F1-262B-3C2E-9677-0A8703350681}
+		{D9A95C3F-5D69-3F34-9EFC-E8761B309267} = {7A9F51F1-262B-3C2E-9677-0A8703350681}
+		{67DEACA0-8C9A-3645-8CD5-09D491E328DC} = {559495DD-CC04-3D98-824F-D86141621E78}
+		{EB05A360-2ED7-3764-82BC-C7C3B209A235} = {67DEACA0-8C9A-3645-8CD5-09D491E328DC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECE12BDB-EAFD-3A4B-94AB-D91DDF0867D4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

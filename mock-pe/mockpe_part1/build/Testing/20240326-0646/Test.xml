@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240326-0646-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.29.0-rc3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="LAPTOP-UX430UN"
+	OSRelease=" Personal"
+	OSVersion=" (Build 22631)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="24962"
+	TotalPhysicalMemory="16244"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1990"
+	>
+	<Testing>
+		<StartDateTime>Mar 26 14:49 Malay Peninsula Standard Time</StartDateTime>
+		<StartTestTime>1711435798</StartTestTime>
+		<TestList>
+			<Test>./CaterpillarTest</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>CaterpillarTest</Name>
+			<Path>.</Path>
+			<FullName>./CaterpillarTest</FullName>
+			<FullCommandLine>"C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\build\Debug\caterpillar_test.exe"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.323482</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\build\Debug\caterpillar_test.exe"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzlmdtu4jAQhu/zFKNegRRoTMIhaHuB6EGVqp7S7qpqKuSEKXg3JFnbodu33wRoCzRIleqEi0RCgGPPn/EHsv3PbRKGLJzAjLKwVodnHs1g2HfvBXLh8sj/8+pehXjM2Rzd48hPZhhK4Q58mdDglAUo3CtPjB7Yb0bD0eW946YvGPh0jDPmC/eBOC136LQMyxi6F9RzZ2nIRoyL9xhHMeWSuJMomgQoUciGYbbtLjUIYtvAsWmiPX4edyzDa1m2Z3lodm17bNrttTGu4L47yT6Nsiyavq89Hr1fT3C7SpG0IesklkmSxRcQCZPY1B4b79cTnAWRR4PlfQznjEdhljYIlI0k3uq8GfU68QLm36UNP2mQoDgcUok8ZkFAedZ6HkqcINce4fb+EhbX01cHNRcpxovOI7ZsOzS00mn5H083yh6p6cdxjfTqfUDOI96Hk38x+hLHgH9TXSZfIXoGOUWBMF8k2NcA1qLUWBgnsq5ls/FryvwpMNGHg4O0AVehtu/96Bykcwing/OLk+Nvz6EOL1PkCGcorymns/SPcAS1tDnTqUONwEzU1TEjFWV2oxIayYdG9KVQSs1QS61VVWpKsbXysbX0lZJ6bmZluSkFZ+aDM/U3KfXkrOqSU4rOykdn6e9a6tm1K8xOKbx2Pry2/iGmfofSqTI9pfg6+fg6+pqaen7dSvNTCrCbD7Crr8upJ9irNkGlCHv5CHv6hp76NdCuOEOlEO18iLa+KaieIqmqxXJTCEeyw20hhr6lWQDKyjovBbHcZcIQfVu0AJjVNWQKornDmyEt/ZNqATgr7NMUxHOHZUPMbZ7FAK2yfVMQ0R1ODrE+Ed1A+u16VfajSUOBjCQN6trXymUSKW+Mo5dwsxy3uwwHnIbNLJs1qXTurgeOs5w7YzmyuTmjbwF1CJjI2HoYRC/90upD5dU0SrThyzSOS3U6y3XmSjaSyrY9Sj+jl3+e3MvJZz9b9D1tJfe149nbuqxp6ZK1Ur47ce4c7T+5VABN====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Mar 26 14:49 Malay Peninsula Standard Time</EndDateTime>
+		<EndTestTime>1711435798</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

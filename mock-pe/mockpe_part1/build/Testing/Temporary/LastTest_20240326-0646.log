@@ -1,0 +1,150 @@
+Start testing: Mar 26 14:49 Malay Peninsula Standard Time
+----------------------------------------------------------
+1/1 Testing: CaterpillarTest
+1/1 Test: CaterpillarTest
+Command: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/Debug/caterpillar_test.exe"
+Directory: C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build
+"CaterpillarTest" start time: Mar 26 14:49 Malay Peninsula Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\googletest-03597a01ee50ed33e9dfd640b249b4be3799d395\googletest\src\gtest_main.cc
+[==========] Running 15 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 15 tests from PublicTestValues/CaterpillarTestInteger
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/0
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/0, where GetParam() = (0, "<6") (1 ms)
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/1
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<Q6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/1, where GetParam() = (1, "<Q6") (0 ms)
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/2
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<QQ6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/2, where GetParam() = (2, "<QQ6") (0 ms)
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/3
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<QQQ6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/3, where GetParam() = (3, "<QQQ6") (0 ms)
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/4
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<QQQQ6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/4, where GetParam() = (4, "<QQQQ6") (0 ms)
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/5
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<QQQQQ6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/5, where GetParam() = (5, "<QQQQQ6") (1 ms)
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/6
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<QQQQQQ6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/6, where GetParam() = (6, "<QQQQQQ6") (1 ms)
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/7
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<QQQQQQQ6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/7, where GetParam() = (7, "<QQQQQQQ6") (1 ms)
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/8
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<QQQQQQQQ6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/8, where GetParam() = (8, "<QQQQQQQQ6") (0 ms)
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/9
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<QQQQQQQQQ6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/9, where GetParam() = (9, "<QQQQQQQQQ6") (0 ms)
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/10
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<QQQQQQQQQQ6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/10, where GetParam() = (10, "<QQQQQQQQQQ6") (0 ms)
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/11
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<QQQQQQQQQQQ6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/11, where GetParam() = (11, "<QQQQQQQQQQQ6") (0 ms)
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/12
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<QQQQQQQQQQQQ6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/12, where GetParam() = (12, "<QQQQQQQQQQQQ6") (0 ms)
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/13
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<QQQQQQQQQQQQQ6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/13, where GetParam() = (13, "<QQQQQQQQQQQQQ6") (0 ms)
+[ RUN      ] PublicTestValues/CaterpillarTestInteger.test_public_integer/14
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\mock-pe\mockpe_part1\caterpillar_test.cpp(18): error: Expected equality of these values:
+  caterpillar(input)
+    Which is: ""
+  expected
+    Which is: "<QQQQQQQQQQQQQQ6"
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/14, where GetParam() = (14, "<QQQQQQQQQQQQQQ6") (0 ms)
+[----------] 15 tests from PublicTestValues/CaterpillarTestInteger (13 ms total)
+
+[----------] Global test environment tear-down
+[==========] 15 tests from 1 test suite ran. (14 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 15 tests, listed below:
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/0, where GetParam() = (0, "<6")
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/1, where GetParam() = (1, "<Q6")
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/2, where GetParam() = (2, "<QQ6")
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/3, where GetParam() = (3, "<QQQ6")
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/4, where GetParam() = (4, "<QQQQ6")
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/5, where GetParam() = (5, "<QQQQQ6")
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/6, where GetParam() = (6, "<QQQQQQ6")
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/7, where GetParam() = (7, "<QQQQQQQ6")
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/8, where GetParam() = (8, "<QQQQQQQQ6")
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/9, where GetParam() = (9, "<QQQQQQQQQ6")
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/10, where GetParam() = (10, "<QQQQQQQQQQ6")
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/11, where GetParam() = (11, "<QQQQQQQQQQQ6")
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/12, where GetParam() = (12, "<QQQQQQQQQQQQ6")
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/13, where GetParam() = (13, "<QQQQQQQQQQQQQ6")
+[  FAILED  ] PublicTestValues/CaterpillarTestInteger.test_public_integer/14, where GetParam() = (14, "<QQQQQQQQQQQQQQ6")
+
+15 FAILED TESTS
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Failed.
+"CaterpillarTest" end time: Mar 26 14:49 Malay Peninsula Standard Time
+"CaterpillarTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 26 14:49 Malay Peninsula Standard Time

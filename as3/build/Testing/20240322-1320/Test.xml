@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240322-1320-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.29.0-rc3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="LAPTOP-UX430UN"
+	OSRelease=" Personal"
+	OSVersion=" (Build 22621)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="23924"
+	TotalPhysicalMemory="16244"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1992"
+	>
+	<Testing>
+		<StartDateTime>Mar 22 21:22 Malay Peninsula Standard Time</StartDateTime>
+		<StartTestTime>1711113761</StartTestTime>
+		<TestList>
+			<Test>./TreeTest</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>TreeTest</Name>
+			<Path>.</Path>
+			<FullName>./TreeTest</FullName>
+			<FullCommandLine>"C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\build\Debug\tree_test.exe"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.14025</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\build\Debug\tree_test.exe"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNU8FOAjEQvfMVc8QDG1i9aOLBQPSggQTkQChput0Bqt1202lR/Hq7u0jUaHYnadpp3sy89s3MgzHK7KAQyvQvYOtsAeMbtiR0xJyVr0c2Mzhx6oBsYmUo0Hhid9IHoe+VRmKzjPhKvShh+HS5YHHBnRQ5FkoSW40WKRsv0uHVcMyeRMYEXbIsKJ0znmNJbGftTqNH8gNy8pvLarc68YpbImVvfXu2DcxPxNNrqEDUUE9rByiouCe99eBsG3jQNhO6AaA5KGdN9Rog9INQ/gL/yPrsEHtrmC+nUNumvklqcmXItJJcWkPeBemti8jGZo8tSOgPoaCLltTKRDE8p/hajfwgdMCWEn9EdCtF6gMjQedQei62Ht0pV0vBf+O6lY1f4qPG1P5zNaxb0tIhty7HNj3OuK5qdMr6BevI1cZzJ7JnYEdBg5RI9H9TJkls/Oe9IihFlMtuwe+xmREbfBk8vAkCh4U9YA6xoySCivPzLhFzasB7h7S3Oq+iR8P0CrJjNX2b3idZa3Rl====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Mar 22 21:22 Malay Peninsula Standard Time</EndDateTime>
+		<EndTestTime>1711113761</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

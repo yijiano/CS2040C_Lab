@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240312-0201-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.29.0-rc3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="LAPTOP-UX430UN"
+	OSRelease=" Personal"
+	OSVersion=" (Build 22621)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="22388"
+	TotalPhysicalMemory="16244"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1992"
+	>
+	<Testing>
+		<StartDateTime>Mar 12 14:02 Malay Peninsula Standard Time</StartDateTime>
+		<StartTestTime>1710223364</StartTestTime>
+		<TestList>
+			<Test>./TreeTest</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>TreeTest</Name>
+			<Path>.</Path>
+			<FullName>./TreeTest</FullName>
+			<FullCommandLine>"C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\build\Debug\tree_test.exe"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.177303</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\build\Debug\tree_test.exe"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJztW11P4zgUfc+vuNunVNN2krQwQyUeEDCj1SJAFHY1IihKU5d6J7WztlNgV/vf105IKDP9SEtjslIiVTTG9T0+uTnX9zq5ignB5B6mPiZmE8aMTuG4795wxLjLaPD9yb0g6IThGXJPaBBPERHcPQpE7IdfcIi4ezHk3jf8J/aJd34zcOUHjgJ/hKY44O43e+C4xwPH6lnH7pk/dH3edYcxDkeuN0IRd+8pvQ+RQFy0OQvmTt3kVH3zFLZOEBi3h/lxB1fPwJ0DUJ14Ct1JToDHWP7tGLft/LiDryEd+mHaAZEZZpSo2QBHoh1HP3R+Neo1Q8i4haubc0iOu6Slk4CL4mGIAy+ghAsWB4Iy2TM9Ln5b0xNMC6a8uWZoTOTFEB6Xsw2RN/PDGBllXyIhQXgKRCeIItPpNfuAGKOsD6ePEQoEGgH6S46PxRPQMYgJ4ggSaLxvAKifdzj+G5lNQ83qjwkOJoB5Hyx5buuGv/cC/3eFUULupxjRNBJPCcjUoGqW9GaT7MPYD7l2uvd/prsPZgKYUSrMZhN+OQSTxGEYCdZsgf8M/vzm7Axm/OVfyhe/HP16dnpS1LXAdAr4pLq20pMZk+A8fywQex5LM1Xdz/9rz+xZO4Xv6Ibv7BR+Vzf83cpaTzf8BTLxBvh7a7Ri6S0PZreAYsiwJ2Qc55pJsg+speKfQTJn8wEgVfwX3U0CQg26Bl2DrkHXoGvQNegadA26Bl2D3h706lQjGwjM/SK1iDgIEOeUGTH5TugDgbGcag7y+MMHQI8BigSmBB6wmMAI8YDhtKFBqAA8jUKkyEKjhkybmBoEE5VApeXCIR09ddblRxmMYlW9iCGPshFiuotL9sE2aWMO96fcsdGQDQ0L2g60e9C2wWmsYSofq2j9832I6m5VnMnQLuFJUeQolqz1PGVDFXQoKr+/C1E9eyuPyvGuoMpWbDlgrXWpfLBiZOU3qydvf0W0glQR/ZiHlM9m5d4EmPae7AaCCj9sGq97O9Z898vE2LVsSMSbf1S/V6evCVvabUH5+KOl2eE+fSqpPr7ZrFvwMEEMwVckLn3mT80mHMI/INudlnRb+em1lAf/u9AlN7Kluy5dDYbtJQzbCcNdReyCyuNGJnRXzKtBrLOcWCtzWfuNzOou5leD2e5ql21Bbwdy4E0Qvp8Irl14bXurDZ8U7sJNh7ZuZbPtvQr4ycsV3CCIvPGOzG3qp7z2mt16TYHAuCtn0R0ga2fZtbNoCPa5Ld1Bv/aWXXtLsQXM1v7Ckc+CiTfFRC5edKbbm8PTkd7N2bOrTUeBkLMLFpxqs1BES3dBQ7faNJSc5WSW/MdKi4SCp1MkpL0qi4SCp0EkpJkqi4SCp0MkpJ0qi4SCV65IDP3QJwHSXwPZf9/1Wj5vHdKTGdO+KK4IyWUKWmZDe4ZdEW5LlcnMiPaEtCLkbpTGbbFbCKbjLN1xXPailZDBoT2Sseb1m1wr3uAC5pMOmN2DOVuSlcujwSBlxU56/xCqnM/pgC0IMVcFgSEK6UN/83dhtn0ivuDjLUU3hIs+TlHwcYLCW+nbbFhr2VAtc0+x1G21kneWtG5I6Khjayl/aqqaaatHlV3pKb2GoqE6oS3vLzujLj1X1ZAF6kmDSs0Dyl0Il70SNAy5ZHo2cH06uB4Y/wF9/KU4====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Mar 12 14:02 Malay Peninsula Standard Time</EndDateTime>
+		<EndTestTime>1710223365</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

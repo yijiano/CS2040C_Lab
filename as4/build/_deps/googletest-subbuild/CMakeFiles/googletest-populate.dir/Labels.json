@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build/_deps/googletest-subbuild/CMakeFiles/918a85516d8e01345c8ea2f99cff96c1/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build/_deps/googletest-subbuild/CMakeFiles/535ff4abc7ad3b38a0330b45cd098728/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build/_deps/googletest-subbuild/CMakeFiles/03939c1e271a4fe43d8907d6703128f1/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build/_deps/googletest-subbuild/CMakeFiles/03939c1e271a4fe43d8907d6703128f1/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build/_deps/googletest-subbuild/CMakeFiles/03939c1e271a4fe43d8907d6703128f1/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build/_deps/googletest-subbuild/CMakeFiles/03939c1e271a4fe43d8907d6703128f1/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build/_deps/googletest-subbuild/CMakeFiles/03939c1e271a4fe43d8907d6703128f1/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build/_deps/googletest-subbuild/CMakeFiles/03939c1e271a4fe43d8907d6703128f1/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build/_deps/googletest-subbuild/CMakeFiles/03939c1e271a4fe43d8907d6703128f1/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build/_deps/googletest-subbuild/CMakeFiles/03939c1e271a4fe43d8907d6703128f1/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

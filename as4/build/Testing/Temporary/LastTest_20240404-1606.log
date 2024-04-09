@@ -1,0 +1,23 @@
+Start testing: Apr 05 00:19 Malay Peninsula Standard Time
+----------------------------------------------------------
+2/2 Testing: QueueSimTest
+2/2 Test: QueueSimTest
+Command: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build/Debug/queue_sim_test.exe"
+Directory: C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build
+"QueueSimTest" start time: Apr 05 00:19 Malay Peninsula Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as4\build\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from QueueSimulator
+[ RUN      ] QueueSimulator.test_public_trivial_queue
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Failed.
+"QueueSimTest" end time: Apr 05 00:19 Malay Peninsula Standard Time
+"QueueSimTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 05 00:19 Malay Peninsula Standard Time

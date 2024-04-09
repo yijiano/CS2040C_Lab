@@ -1,0 +1,248 @@
+Start testing: Mar 12 14:02 Malay Peninsula Standard Time
+----------------------------------------------------------
+1/1 Testing: TreeTest
+1/1 Test: TreeTest
+Command: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as3/build/Debug/tree_test.exe"
+Directory: C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as3/build
+"TreeTest" start time: Mar 12 14:02 Malay Peninsula Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 29 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 9 tests from Tree
+[ RUN      ] Tree.test_public_constructor
+[       OK ] Tree.test_public_constructor (0 ms)
+[ RUN      ] Tree.test_public_insert_single_value
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(24): error: Expected equality of these values:
+  tree.size()
+    Which is: 0
+  1
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(25): error: Value of: tree.empty()
+  Actual: true
+Expected: false
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(26): error: Expected: (tree.root()) != (nullptr), actual: NULL vs (nullptr)
+[  FAILED  ] Tree.test_public_insert_single_value (2 ms)
+[ RUN      ] Tree.test_public_size_correct_after_insert
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(38): error: Expected equality of these values:
+  tree.size()
+    Which is: 0
+  1
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(40): error: Expected equality of these values:
+  tree.size()
+    Which is: 0
+  2
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(42): error: Expected equality of these values:
+  tree.size()
+    Which is: 0
+  3
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(44): error: Expected equality of these values:
+  tree.size()
+    Which is: 0
+  4
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(46): error: Expected equality of these values:
+  tree.size()
+    Which is: 0
+  5
+[  FAILED  ] Tree.test_public_size_correct_after_insert (3 ms)
+[ RUN      ] Tree.test_public_contains
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(190): error: Value of: tree.contains(v)
+  Actual: false
+Expected: true
+[  FAILED  ] Tree.test_public_contains (6 ms)
+[ RUN      ] Tree.test_public_successor
+unknown file: error: C++ exception with description "not implemented" thrown in the test body.
+[  FAILED  ] Tree.test_public_successor (0 ms)
+[ RUN      ] Tree.test_public_pre_order
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(219): error: Expected equality of these values:
+  tree.pre_order()
+    Which is: ""
+  "0 -2 -4 -1 2"
+[  FAILED  ] Tree.test_public_pre_order (0 ms)
+[ RUN      ] Tree.test_public_in_order
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(230): error: Expected equality of these values:
+  tree.in_order()
+    Which is: ""
+  "-4 -2 -1 0 2"
+[  FAILED  ] Tree.test_public_in_order (0 ms)
+[ RUN      ] Tree.test_public_post_order
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(241): error: Expected equality of these values:
+  tree.post_order()
+    Which is: ""
+  "-4 -1 -2 2 0"
+[  FAILED  ] Tree.test_public_post_order (0 ms)
+[ RUN      ] Tree.test_public_successor_not_in_tree
+unknown file: error: C++ exception with description "not implemented" thrown in the test body.
+[  FAILED  ] Tree.test_public_successor_not_in_tree (0 ms)
+[----------] 9 tests from Tree (15 ms total)
+
+[----------] 20 tests from PublicTestValues/TreeTest
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert/0
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(77): error: Expected: (tree.root()) != (nullptr), actual: NULL vs (nullptr)
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert/0, where GetParam() = { 0, 2, -2, -4, -1 } (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert/1
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(77): error: Expected: (tree.root()) != (nullptr), actual: NULL vs (nullptr)
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert/1, where GetParam() = { 1, 2, 3 } (3 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert/2
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(77): error: Expected: (tree.root()) != (nullptr), actual: NULL vs (nullptr)
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert/2, where GetParam() = { 1, 0, -1 } (1 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert/3
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(77): error: Expected: (tree.root()) != (nullptr), actual: NULL vs (nullptr)
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert/3, where GetParam() = { 1, 2, 3, 4 } (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert_heights/0
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(112): error: Expected equality of these values:
+  tree.height()
+    Which is: 0
+  -1
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(115): error: Expected: (tree.root()) != (nullptr), actual: NULL vs (nullptr)
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert_heights/0, where GetParam() = { 0, 2, -2, -4, -1 } (1 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert_heights/1
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(112): error: Expected equality of these values:
+  tree.height()
+    Which is: 0
+  -1
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(115): error: Expected: (tree.root()) != (nullptr), actual: NULL vs (nullptr)
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert_heights/1, where GetParam() = { 1, 2, 3 } (1 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert_heights/2
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(112): error: Expected equality of these values:
+  tree.height()
+    Which is: 0
+  -1
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(115): error: Expected: (tree.root()) != (nullptr), actual: NULL vs (nullptr)
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert_heights/2, where GetParam() = { 1, 0, -1 } (1 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_insert_heights/3
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(112): error: Expected equality of these values:
+  tree.height()
+    Which is: 0
+  -1
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(115): error: Expected: (tree.root()) != (nullptr), actual: NULL vs (nullptr)
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert_heights/3, where GetParam() = { 1, 2, 3, 4 } (1 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_min/0
+unknown file: error: C++ exception with description "not implemented" thrown in the test body.
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_min/0, where GetParam() = { 0, 2, -2, -4, -1 } (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_min/1
+unknown file: error: C++ exception with description "not implemented" thrown in the test body.
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_min/1, where GetParam() = { 1, 2, 3 } (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_min/2
+unknown file: error: C++ exception with description "not implemented" thrown in the test body.
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_min/2, where GetParam() = { 1, 0, -1 } (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_min/3
+unknown file: error: C++ exception with description "not implemented" thrown in the test body.
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_min/3, where GetParam() = { 1, 2, 3, 4 } (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_max/0
+unknown file: error: C++ exception with description "not implemented" thrown in the test body.
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_max/0, where GetParam() = { 0, 2, -2, -4, -1 } (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_max/1
+unknown file: error: C++ exception with description "not implemented" thrown in the test body.
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_max/1, where GetParam() = { 1, 2, 3 } (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_max/2
+unknown file: error: C++ exception with description "not implemented" thrown in the test body.
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_max/2, where GetParam() = { 1, 0, -1 } (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_search_max/3
+unknown file: error: C++ exception with description "not implemented" thrown in the test body.
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_max/3, where GetParam() = { 1, 2, 3, 4 } (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_balance/0
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(165): error: Expected: (tree.root()) != (nullptr), actual: NULL vs (nullptr)
+[  FAILED  ] PublicTestValues/TreeTest.test_public_balance/0, where GetParam() = { 0, 2, -2, -4, -1 } (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_balance/1
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(165): error: Expected: (tree.root()) != (nullptr), actual: NULL vs (nullptr)
+[  FAILED  ] PublicTestValues/TreeTest.test_public_balance/1, where GetParam() = { 1, 2, 3 } (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_balance/2
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(165): error: Expected: (tree.root()) != (nullptr), actual: NULL vs (nullptr)
+[  FAILED  ] PublicTestValues/TreeTest.test_public_balance/2, where GetParam() = { 1, 0, -1 } (0 ms)
+[ RUN      ] PublicTestValues/TreeTest.test_public_balance/3
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as3\tree_test.cpp(165): error: Expected: (tree.root()) != (nullptr), actual: NULL vs (nullptr)
+[  FAILED  ] PublicTestValues/TreeTest.test_public_balance/3, where GetParam() = { 1, 2, 3, 4 } (1 ms)
+[----------] 20 tests from PublicTestValues/TreeTest (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 29 tests from 2 test suites ran. (39 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 28 tests, listed below:
+[  FAILED  ] Tree.test_public_insert_single_value
+[  FAILED  ] Tree.test_public_size_correct_after_insert
+[  FAILED  ] Tree.test_public_contains
+[  FAILED  ] Tree.test_public_successor
+[  FAILED  ] Tree.test_public_pre_order
+[  FAILED  ] Tree.test_public_in_order
+[  FAILED  ] Tree.test_public_post_order
+[  FAILED  ] Tree.test_public_successor_not_in_tree
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert/0, where GetParam() = { 0, 2, -2, -4, -1 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert/1, where GetParam() = { 1, 2, 3 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert/2, where GetParam() = { 1, 0, -1 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert/3, where GetParam() = { 1, 2, 3, 4 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert_heights/0, where GetParam() = { 0, 2, -2, -4, -1 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert_heights/1, where GetParam() = { 1, 2, 3 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert_heights/2, where GetParam() = { 1, 0, -1 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_insert_heights/3, where GetParam() = { 1, 2, 3, 4 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_min/0, where GetParam() = { 0, 2, -2, -4, -1 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_min/1, where GetParam() = { 1, 2, 3 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_min/2, where GetParam() = { 1, 0, -1 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_min/3, where GetParam() = { 1, 2, 3, 4 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_max/0, where GetParam() = { 0, 2, -2, -4, -1 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_max/1, where GetParam() = { 1, 2, 3 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_max/2, where GetParam() = { 1, 0, -1 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_search_max/3, where GetParam() = { 1, 2, 3, 4 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_balance/0, where GetParam() = { 0, 2, -2, -4, -1 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_balance/1, where GetParam() = { 1, 2, 3 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_balance/2, where GetParam() = { 1, 0, -1 }
+[  FAILED  ] PublicTestValues/TreeTest.test_public_balance/3, where GetParam() = { 1, 2, 3, 4 }
+
+28 FAILED TESTS
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Failed.
+"TreeTest" end time: Mar 12 14:02 Malay Peninsula Standard Time
+"TreeTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 12 14:02 Malay Peninsula Standard Time

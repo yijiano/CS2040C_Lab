@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240406-1434-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.29.0-rc3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="LAPTOP-UX430UN"
+	OSRelease=" Personal"
+	OSVersion=" (Build 22631)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="24436"
+	TotalPhysicalMemory="16244"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1992"
+	>
+	<Testing>
+		<StartDateTime>Apr 07 00:42 Malay Peninsula Standard Time</StartDateTime>
+		<StartTestTime>1712421749</StartTestTime>
+		<TestList>
+			<Test>./QueueSimTest</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>QueueSimTest</Name>
+			<Path>.</Path>
+			<FullName>./QueueSimTest</FullName>
+			<FullCommandLine>"C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as4\build\Debug\queue_sim_test.exe"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Exit code 0xc0000409
+</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>3221226505</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.151066</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>"C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as4\build\Debug\queue_sim_test.exe"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJzFlF1P2zAUhu/zK464asWImg8YjcRFVWCbxGCjgwnVVeQ4p62HYwd/FLpfP6dBKGUSA2nTLEXyyXtkv+fRK186KblcQEW57PVhrlUF44xcGdSGaMVu1+RC4rHmKyTHirkKpTVkxKyj4pQLNOSiMPkN/8GpzM+vJsR/MGK0xIozQ26iSUzGk3iQDsbkjBaEmpQUjouS5CXWhiyUWgi0aOye0axTkk3Z7PLGW8hYMD16WjO4fDR+AE2PaZ1HmwKM4xbDYLr3tGbwQaiCilZHueJayWYWMGj3XP2seevQrw4dTnjlBLVKB1O4vDqHzZo908KN3doVgrPcemacivyuaQmcvJXqXsLcM8sAtVY6g/HuLuADw9pyJeGe2yWUaJjm7Y+dj0hr4Aawqu16B+xSN0dw6XfYTlKocu29A5yOPp2dHL/FEvQGUJn+q+cxvKoFPo7zryOyuaW5sjWSN0ZCVte9OO0/4Tt5qJFZLAHv/FXcrkHNGzQGYUWFQ5MFABqNEzY0/Cf2+kEz5fclZ0uPNYPY18mr6XUBvBWeUHKB+n/DS4Z/EV7q6/1Xw+sCeCu8WnOlvcNHfNPBLIOR9sioyCB6B188RzTGvwZZ4yjqyvG2/D6Yxl052ZbjYJp05XRb9llJu/LhthwFR39Yz7z/bi562Vz8srnkRXM+dv7HQtMK2mR95kwro+YWrrnxIYCJdSVXJB7EPlSqqpz01Mn1mHxTSvj+id9GaZgMwyTZj4aESyZciWTlk6R0Lzocpn3wFoxP9+YFm1N/UZlB2+Df5aJ93UA52+RNU5+K4BdtajeF====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Apr 07 00:42 Malay Peninsula Standard Time</EndDateTime>
+		<EndTestTime>1712421749</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,0 +1,49 @@
+Start testing: Apr 07 00:42 Malay Peninsula Standard Time
+----------------------------------------------------------
+2/2 Testing: QueueSimTest
+2/2 Test: QueueSimTest
+Command: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build/Debug/queue_sim_test.exe"
+Directory: C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/as4/build
+"QueueSimTest" start time: Apr 07 00:42 Malay Peninsula Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as4\build\_deps\googletest-src\googletest\src\gtest_main.cc
+[==========] Running 6 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 6 tests from QueueSimulator
+[ RUN      ] QueueSimulator.test_public_trivial_queue
+unknown file: error: C++ exception with description "Heap is empty" thrown in the test body.
+[  FAILED  ] QueueSimulator.test_public_trivial_queue (0 ms)
+[ RUN      ] QueueSimulator.test_public_simple_queue
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as4\queue_simulator_test.cpp(24): error: Expected equality of these values:
+  result.size()
+    Which is: 2
+  3
+[  FAILED  ] QueueSimulator.test_public_simple_queue (0 ms)
+[ RUN      ] QueueSimulator.test_public_longer_queue
+C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\Lab\as4\queue_simulator_test.cpp(39): error: Expected equality of these values:
+  result.size()
+    Which is: 4
+  5
+[  FAILED  ] QueueSimulator.test_public_longer_queue (0 ms)
+[ RUN      ] QueueSimulator.test_public_priority_queue
+[0]: Arrival: 1, Processing: 5
+[1]: Arrival: 2, Processing: 7
+[2]: Arrival: 3, Processing: 2
+[3]: Arrival: 4, Processing: 3
+[4]: Arrival: 8, Processing: 1
+================================
+[0]: Arrival: 2, Processing: 7
+[1]: Arrival: 3, Processing: 2
+[2]: Arrival: 4, Processing: 3
+[3]: Arrival: 8, Processing: 1
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vector(1894) : Assertion failed: vector subscript out of range
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Failed.
+"QueueSimTest" end time: Apr 07 00:42 Malay Peninsula Standard Time
+"QueueSimTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 07 00:42 Malay Peninsula Standard Time

@@ -1,0 +1,460 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.9.5+33de0b227 for .NET Framework
+      Build started 26/3/2024 2:45:00 pm.
+      
+      Project "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:02.36
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/3.29.0-rc3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.9.5+33de0b227 for .NET Framework
+      Build started 26/3/2024 2:45:02 pm.
+      
+      Project "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\Hostx86\\x86\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\3.29.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.66
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/3.29.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-ivkt0l"
+      binary: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-ivkt0l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-ivkt0l'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bbcfd.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 26/3/2024 2:45:05 pm.
+        
+        Project "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivkt0l\\cmTC_bbcfd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_bbcfd.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivkt0l\\Debug\\".
+          Creating directory "cmTC_bbcfd.dir\\Debug\\cmTC_bbcfd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bbcfd.dir\\Debug\\cmTC_bbcfd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bbcfd.dir\\Debug\\cmTC_bbcfd.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbcfd.dir\\Debug\\\\" /Fd"cmTC_bbcfd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33521 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbcfd.dir\\Debug\\\\" /Fd"cmTC_bbcfd.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivkt0l\\Debug\\cmTC_bbcfd.exe" /INCREMENTAL /ILK:"cmTC_bbcfd.dir\\Debug\\cmTC_bbcfd.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-ivkt0l/Debug/cmTC_bbcfd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-ivkt0l/Debug/cmTC_bbcfd.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_bbcfd.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_bbcfd.vcxproj -> C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivkt0l\\Debug\\cmTC_bbcfd.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_bbcfd.dir\\Debug\\cmTC_bbcfd.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bbcfd.dir\\Debug\\cmTC_bbcfd.tlog\\cmTC_bbcfd.lastbuildstate".
+        Done Building Project "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivkt0l\\cmTC_bbcfd.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:02.12
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX86/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX86/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33521.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-2n8ryq"
+      binary: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-2n8ryq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-2n8ryq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cc1fa.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 26/3/2024 2:45:08 pm.
+        
+        Project "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2n8ryq\\cmTC_cc1fa.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_cc1fa.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2n8ryq\\Debug\\".
+          Creating directory "cmTC_cc1fa.dir\\Debug\\cmTC_cc1fa.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_cc1fa.dir\\Debug\\cmTC_cc1fa.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_cc1fa.dir\\Debug\\cmTC_cc1fa.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cc1fa.dir\\Debug\\\\" /Fd"cmTC_cc1fa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33521 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cc1fa.dir\\Debug\\\\" /Fd"cmTC_cc1fa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2n8ryq\\Debug\\cmTC_cc1fa.exe" /INCREMENTAL /ILK:"cmTC_cc1fa.dir\\Debug\\cmTC_cc1fa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-2n8ryq/Debug/cmTC_cc1fa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-2n8ryq/Debug/cmTC_cc1fa.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_cc1fa.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_cc1fa.vcxproj -> C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2n8ryq\\Debug\\cmTC_cc1fa.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_cc1fa.dir\\Debug\\cmTC_cc1fa.tlog\\unsuccessfulbuild".
+          Touching "cmTC_cc1fa.dir\\Debug\\cmTC_cc1fa.tlog\\cmTC_cc1fa.lastbuildstate".
+        Done Building Project "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2n8ryq\\cmTC_cc1fa.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.92
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX86/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.39.33519/bin/HostX86/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.39.33521.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "googletest-03597a01ee50ed33e9dfd640b249b4be3799d395/googletest/cmake/internal_utils.cmake:70 (find_package)"
+      - "googletest-03597a01ee50ed33e9dfd640b249b4be3799d395/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-c4w3mj"
+      binary: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-c4w3mj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-c4w3mj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_51907.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 26/3/2024 2:46:29 pm.
+        
+        Project "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4w3mj\\cmTC_51907.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_51907.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4w3mj\\Debug\\".
+          Creating directory "cmTC_51907.dir\\Debug\\cmTC_51907.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_51907.dir\\Debug\\cmTC_51907.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_51907.dir\\Debug\\cmTC_51907.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51907.dir\\Debug\\\\" /Fd"cmTC_51907.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4w3mj\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33521 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_51907.dir\\Debug\\\\" /Fd"cmTC_51907.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4w3mj\\src.c"
+          src.c
+        C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4w3mj\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4w3mj\\cmTC_51907.vcxproj]
+        Done Building Project "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4w3mj\\cmTC_51907.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4w3mj\\cmTC_51907.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4w3mj\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4w3mj\\cmTC_51907.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.80
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "googletest-03597a01ee50ed33e9dfd640b249b4be3799d395/googletest/cmake/internal_utils.cmake:70 (find_package)"
+      - "googletest-03597a01ee50ed33e9dfd640b249b4be3799d395/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-nl33ga"
+      binary: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-nl33ga"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-nl33ga'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_92a79.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 26/3/2024 2:46:32 pm.
+        
+        Project "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nl33ga\\cmTC_92a79.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_92a79.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nl33ga\\Debug\\".
+          Creating directory "cmTC_92a79.dir\\Debug\\cmTC_92a79.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_92a79.dir\\Debug\\cmTC_92a79.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_92a79.dir\\Debug\\cmTC_92a79.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_92a79.dir\\Debug\\\\" /Fd"cmTC_92a79.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nl33ga\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33521 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_92a79.dir\\Debug\\\\" /Fd"cmTC_92a79.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nl33ga\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nl33ga\\Debug\\cmTC_92a79.exe" /INCREMENTAL /ILK:"cmTC_92a79.dir\\Debug\\cmTC_92a79.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-nl33ga/Debug/cmTC_92a79.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-nl33ga/Debug/cmTC_92a79.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_92a79.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nl33ga\\cmTC_92a79.vcxproj]
+        Done Building Project "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nl33ga\\cmTC_92a79.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nl33ga\\cmTC_92a79.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nl33ga\\cmTC_92a79.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:02.10
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "googletest-03597a01ee50ed33e9dfd640b249b4be3799d395/googletest/cmake/internal_utils.cmake:70 (find_package)"
+      - "googletest-03597a01ee50ed33e9dfd640b249b4be3799d395/googletest/CMakeLists.txt:88 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-kwnt4g"
+      binary: "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-kwnt4g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-kwnt4g'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_392da.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.9.5+33de0b227 for .NET Framework
+        Build started 26/3/2024 2:46:35 pm.
+        
+        Project "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwnt4g\\cmTC_392da.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_392da.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwnt4g\\Debug\\".
+          Creating directory "cmTC_392da.dir\\Debug\\cmTC_392da.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_392da.dir\\Debug\\cmTC_392da.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_392da.dir\\Debug\\cmTC_392da.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_392da.dir\\Debug\\\\" /Fd"cmTC_392da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwnt4g\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.39.33521 for x86
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_392da.dir\\Debug\\\\" /Fd"cmTC_392da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwnt4g\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\bin\\HostX86\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwnt4g\\Debug\\cmTC_392da.exe" /INCREMENTAL /ILK:"cmTC_392da.dir\\Debug\\cmTC_392da.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-kwnt4g/Debug/cmTC_392da.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/Lab/mock-pe/mockpe_part1/build/CMakeFiles/CMakeScratch/TryCompile-kwnt4g/Debug/cmTC_392da.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_392da.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwnt4g\\cmTC_392da.vcxproj]
+        Done Building Project "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwnt4g\\cmTC_392da.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwnt4g\\cmTC_392da.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\rocky\\OneDrive\\Documents\\ActualFiles\\Obs_Yijian_NUS\\NUS Academics\\Y1S2\\CS2040C\\Lab\\mock-pe\\mockpe_part1\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kwnt4g\\cmTC_392da.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.75
+        
+      exitCode: 1
+...
