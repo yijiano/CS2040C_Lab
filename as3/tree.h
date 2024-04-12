@@ -354,4 +354,27 @@ template <typename T> string Tree<T>::post_order() {
   return _post_order(m_root);
 }
 
+// template <typename T>
+// string Tree<T>::level_order() const {
+//     if (m_root == nullptr) return "";  // Return an empty string if the tree is empty
+
+//     std::queue<Node<T>*> nodeQueue;
+//     nodeQueue.push(m_root);  // Start with the root node
+//     std::string result;
+
+//     while (!nodeQueue.empty()) {
+//         Node<T>* current = nodeQueue.front();
+//         nodeQueue.pop();
+
+//         // Process the current node
+//         result += my_to_string(current->element) + " ";
+
+//         // Enqueue child nodes of the current node
+//         if (current->left != nullptr) nodeQueue.push(current->left);
+//         if (current->right != nullptr) nodeQueue.push(current->right);
+//     }
+
+//     return result;
+// }
+
 #endif
