@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "xlocale": "cpp",
+        "xstring": "cpp",
+        "iostream": "cpp",
+        "vector": "cpp",
+        "forward_list": "cpp",
+        "xutility": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "list": "cpp"
+    }
+}
