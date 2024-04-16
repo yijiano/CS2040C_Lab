@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "xutility": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "queue": "cpp",
+        "span": "cpp",
+        "vector": "cpp",
+        "xstring": "cpp"
+    }
+}

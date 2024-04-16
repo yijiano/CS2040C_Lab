@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part3/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part3/build/_deps/googletest-subbuild/CMakeFiles/e3ff18e4f078d301c36dbf859b1124f8/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part3/build/_deps/googletest-subbuild/CMakeFiles/b97992619f8c243f75b3d39545d58e2c/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part3/build/_deps/googletest-subbuild/CMakeFiles/3f590158ad739f50cdf92b0043fe7ea4/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part3/build/_deps/googletest-subbuild/CMakeFiles/3f590158ad739f50cdf92b0043fe7ea4/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part3/build/_deps/googletest-subbuild/CMakeFiles/3f590158ad739f50cdf92b0043fe7ea4/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part3/build/_deps/googletest-subbuild/CMakeFiles/3f590158ad739f50cdf92b0043fe7ea4/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part3/build/_deps/googletest-subbuild/CMakeFiles/3f590158ad739f50cdf92b0043fe7ea4/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part3/build/_deps/googletest-subbuild/CMakeFiles/3f590158ad739f50cdf92b0043fe7ea4/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part3/build/_deps/googletest-subbuild/CMakeFiles/3f590158ad739f50cdf92b0043fe7ea4/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part3/build/_deps/googletest-subbuild/CMakeFiles/3f590158ad739f50cdf92b0043fe7ea4/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

@@ -1,0 +1,10 @@
+^C:\USERS\ROCKY\ONEDRIVE\DOCUMENTS\ACTUALFILES\OBS_YIJIAN_NUS\NUS ACADEMICS\Y1S2\CS2040C\CS2040C_LAB\PE\PART1\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\C06CAEFEDC4B1BEDD75EC86D67A71094\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part1/build/_deps/googletest-subbuild" "-BC:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part1/build/_deps/googletest-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part1/build/_deps/googletest-subbuild/googletest-populate.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part3\build\_deps\googletest-subbuild\CMakeFiles\3f590158ad739f50cdf92b0043fe7ea4\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part3\build\_deps\googletest-subbuild\CMakeFiles\3f590158ad739f50cdf92b0043fe7ea4\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part3\build\_deps\googletest-subbuild\CMakeFiles\3f590158ad739f50cdf92b0043fe7ea4\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part3\build\_deps\googletest-subbuild\CMakeFiles\3f590158ad739f50cdf92b0043fe7ea4\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part3\build\_deps\googletest-subbuild\CMakeFiles\3f590158ad739f50cdf92b0043fe7ea4\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part3\build\_deps\googletest-subbuild\CMakeFiles\3f590158ad739f50cdf92b0043fe7ea4\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part3\build\_deps\googletest-subbuild\CMakeFiles\3f590158ad739f50cdf92b0043fe7ea4\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part3\build\_deps\googletest-subbuild\CMakeFiles\3f590158ad739f50cdf92b0043fe7ea4\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part3\build\_deps\googletest-subbuild\CMakeFiles\b97992619f8c243f75b3d39545d58e2c\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part3\build\_deps\googletest-subbuild\CMakeFiles\e3ff18e4f078d301c36dbf859b1124f8\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part3\build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part3\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{049615BE-BCCD-3B0B-A46D-EF7F6699B284}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

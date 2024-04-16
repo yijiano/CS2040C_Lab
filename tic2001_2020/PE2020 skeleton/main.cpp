@@ -94,7 +94,7 @@ void Graph::DFS(int s, List<int>& output, bool resetVisited)
         if (!_isVisited(_al[s].current())) { //if head item of s linked list is not visited
             DFS(_al[s].current(), output, false); //dfs down current node
         }
-        _al[s].next();
+        _al[s].next();  
     }
 
 };

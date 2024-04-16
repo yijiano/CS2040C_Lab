@@ -1,0 +1,144 @@
+^C:\USERS\ROCKY\ONEDRIVE\DOCUMENTS\ACTUALFILES\OBS_YIJIAN_NUS\NUS ACADEMICS\Y1S2\CS2040C\CS2040C_LAB\PE\PART2\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\6281992C289F24CC1CCB637CC94B5074\GOOGLETEST-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp/googletest-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKY\ONEDRIVE\DOCUMENTS\ACTUALFILES\OBS_YIJIAN_NUS\NUS ACADEMICS\Y1S2\CS2040C\CS2040C_LAB\PE\PART2\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\6281992C289F24CC1CCB637CC94B5074\GOOGLETEST-POPULATE-DOWNLOAD.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKY\ONEDRIVE\DOCUMENTS\ACTUALFILES\OBS_YIJIAN_NUS\NUS ACADEMICS\Y1S2\CS2040C\CS2040C_LAB\PE\PART2\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\6281992C289F24CC1CCB637CC94B5074\GOOGLETEST-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKY\ONEDRIVE\DOCUMENTS\ACTUALFILES\OBS_YIJIAN_NUS\NUS ACADEMICS\Y1S2\CS2040C\CS2040C_LAB\PE\PART2\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\6281992C289F24CC1CCB637CC94B5074\GOOGLETEST-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKY\ONEDRIVE\DOCUMENTS\ACTUALFILES\OBS_YIJIAN_NUS\NUS ACADEMICS\Y1S2\CS2040C\CS2040C_LAB\PE\PART2\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\6281992C289F24CC1CCB637CC94B5074\GOOGLETEST-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part2\build\_deps\googletest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKY\ONEDRIVE\DOCUMENTS\ACTUALFILES\OBS_YIJIAN_NUS\NUS ACADEMICS\Y1S2\CS2040C\CS2040C_LAB\PE\PART2\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\6281992C289F24CC1CCB637CC94B5074\GOOGLETEST-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part2\build\_deps\googletest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKY\ONEDRIVE\DOCUMENTS\ACTUALFILES\OBS_YIJIAN_NUS\NUS ACADEMICS\Y1S2\CS2040C\CS2040C_LAB\PE\PART2\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\6281992C289F24CC1CCB637CC94B5074\GOOGLETEST-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part2\build\_deps\googletest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKY\ONEDRIVE\DOCUMENTS\ACTUALFILES\OBS_YIJIAN_NUS\NUS ACADEMICS\Y1S2\CS2040C\CS2040C_LAB\PE\PART2\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\6281992C289F24CC1CCB637CC94B5074\GOOGLETEST-POPULATE-TEST.RULE
+setlocal
+cd "C:\Users\rocky\OneDrive\Documents\ActualFiles\Obs_Yijian_NUS\NUS Academics\Y1S2\CS2040C\CS2040C_Lab\pe\part2\build\_deps\googletest-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKY\ONEDRIVE\DOCUMENTS\ACTUALFILES\OBS_YIJIAN_NUS\NUS ACADEMICS\Y1S2\CS2040C\CS2040C_LAB\PE\PART2\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\424E9DDA5A089183A1EDA7E809F50E76\GOOGLETEST-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild/CMakeFiles/Debug/googletest-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/Debug/googletest-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKY\ONEDRIVE\DOCUMENTS\ACTUALFILES\OBS_YIJIAN_NUS\NUS ACADEMICS\Y1S2\CS2040C\CS2040C_LAB\PE\PART2\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKEFILES\E5F65C6F17B8D299E593F5BF762BBCAE\GOOGLETEST-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ROCKY\ONEDRIVE\DOCUMENTS\ACTUALFILES\OBS_YIJIAN_NUS\NUS ACADEMICS\Y1S2\CS2040C\CS2040C_LAB\PE\PART2\BUILD\_DEPS\GOOGLETEST-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild" "-BC:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild" --check-stamp-file "C:/Users/rocky/OneDrive/Documents/ActualFiles/Obs_Yijian_NUS/NUS Academics/Y1S2/CS2040C/CS2040C_Lab/pe/part2/build/_deps/googletest-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

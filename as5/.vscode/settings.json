@@ -8,6 +8,8 @@
         "xutility": "cpp",
         "array": "cpp",
         "deque": "cpp",
-        "list": "cpp"
+        "list": "cpp",
+        "string": "cpp",
+        "tuple": "cpp"
     }
 }
